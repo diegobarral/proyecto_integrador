@@ -1,0 +1,21 @@
+*{
+    /*reseteo de algunas propiedades*/
+}
+
+.colorWhite{
+    color:white;
+}
+
+.colorGris{
+    color: rgb(79, 83, 87);
+}
+
+.colorVerde{
+    color: rgb(40, 167, 69);
+}
+
+.logoNav{
+    background-color: rgb(53,58,64);
+    font-size: 1.5rem;
+}
+

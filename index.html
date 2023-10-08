@@ -1,0 +1,155 @@
+<!DOCTYPE html><!-- esto es un comentario , para grabar en visual ctrl+S  -->
+<html lang="es">
+    <!--head: configuraciones para el navegador-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto integrador Front | Gisele Gonzalez</title>
+        <!--favicon-->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+       <!-- <style>
+            html{
+                scroll-behavior: smooth;
+            } 
+        </style>-->
+    </head>
+    <!--dentro del body van a ir las etiquetas que el usuario va a poder ver en la pagina web-->
+    <body>
+        <header>
+            <section class="logoNav">
+                <a href="#">   
+                    <img src="./assets/img/codoacodo.png" alt="logo de codo a codo 4.0" loading="lazy">
+                </a>
+                <h2 class="colorWhite">Conf Bs As</h2>
+                <nav>
+                    <ul>
+                        <li><a class="colorWhite" href="#conferencia">La conferencia</a></li>
+                        <li><a class="colorGris" href="#oradores">Los oradores</a></li>
+                        <li><a class="colorGris" href="#lugarFecha">El lugar y la fecha</a></li>
+                        <li><a class="colorGris" href="#formularioOrador">Conviertete en orador</a></li>
+                        <li><a class="colorVerde" href="./pages/tickets.html">Comprar tickets</a></li>
+                    </ul>
+                </nav>
+            </section>
+          
+            <!-- la imagen la pondremos de fondo con css-->
+            <section id="conferencia">
+              <!-- <img src="" alt="imagen del palacio de aguas argentinas">--> 
+                <h1>Conferencia Buenos Aires</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis, voluptatum nulla quis dignissimos quos adipisci totam officiis molestias debitis? Sapiente dolorem aliquid, eveniet ducimus recusandae harum quia incidunt quis.</p>
+                <a href="">Quiero ser Orador</a>
+                <a href="">Comprar tickets</a>
+
+            </section>
+        </header>
+        
+        <main>
+          <section id="oradores">
+          
+            <h2>
+                <div>CONOCE A LOS</div>
+                ORADORES
+           </h2>
+          
+           <div>
+           
+            <img src="./assets/img/Steve_Jobs.jpg" alt="Steve Jobs" width="600" loading="lazy">
+            <h4>JavaScript</h4>
+            <h4>React Native</h4>
+            <h3>Steve Jobs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusamus incidunt nam, perferendis blanditiis atque voluptates praesentium temporibus provident voluptatibus autem ullam sunt assumenda iste corrupti veritatis accusantium nemo ex.</p>
+           </div>
+           <div>
+         
+            <img src="./assets/img/bill.jpg" alt="Bill Gates" loading="lazy">
+            <h4>Sistemas operativos</h4>
+            <h4>C++</h4>
+            <h3>Bill Gates</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusamus incidunt nam, perferendis blanditiis atque voluptates praesentium temporibus provident voluptatibus autem ullam sunt assumenda iste corrupti veritatis accusantium nemo ex.</p>
+           </div>
+           <div>
+           
+            <img src="./assets/img/ada.jpeg"alt="Ada Lovelace" loading="lazy">
+            <h4>Algoritmos</h4>
+            <h4>Cobol</h4>
+            <h3>Ada Lovelace</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusamus incidunt nam, perferendis blanditiis atque voluptates praesentium temporibus provident voluptatibus autem ullam sunt assumenda iste corrupti veritatis accusantium nemo ex.</p>
+           </div>
+
+
+          </section>
+          <section id="lugarFecha">
+             <img src="./assets/img/honolulu.jpg" alt="Mar del plata" width="600" loading="lazy">
+             <h2>Buenos Aires - Octubre</h2>
+             <p>Lorem, <b>ipsum</b> dolor sit amet consectetur adipisicing elit. Quisquam non iste praesentium recusandae totam dolores a cumque ducimus odit quas consequatur, deleniti atque accusantium magni, minima quidem quia minus temporibus.</p>
+             <a href="./pages/404.html">Conocé más</a>
+          </section>
+          <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1366237167395!2d-58.39758742425996!3d-34.60070657295539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabfe23f5e3b%3A0x6f90fe1eadb235cf!2sMuseo%20del%20Agua%20y%20de%20la%20Historia%20Sanitaria!5e0!3m2!1ses!2sar!4v1692228848422!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+
+          <section id="formularioOrador">
+            <h2>Conviertete en orador</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugit odio molestiae!</p>
+            <form action="./pages/404.html" method="get">
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                </div>
+                <br>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@servidor.com">
+                    <input type="password" placeholder="contraseña">
+                   
+                </div>
+                <br>
+                <div>
+                    <textarea name="comentario" id="comentario" cols="55" rows="5" placeholder="Sobre qué quieres hablar?" required></textarea>
+                </div>
+                <div>
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="submit" value="Enviar formulario">
+                </div>
+            </form>
+          </section>
+         
+        </main>
+        <aside>
+            <p>PUBLICIDAD</p>
+            <div>
+                <iframe width="400" height="500"  src="https://www.youtube.com/embed/ptXiQwE535s?controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <!--estructurar posible publicidad-->
+            <div>
+                <iframe width="400"  src="https://www.youtube.com/embed/ptXiQwE535s?controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div>
+                <iframe width="400"  src="https://www.youtube.com/embed/SIotISUq-3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </aside>
+      
+       
+        <footer>
+            footer
+        </footer>
+        
+    </body>
+</html>
+
+
+
+<!--etiquetas cerradas 
+<etiqueta atributo="valor" atributoSinValor> contenido , puede ser texto o pueden ser otra/s etiqueta/s</etiqueta>-->
+
+<!--etiquetas abiertas
+<etiqueta atributo="valor" atributoSinValor>-->
